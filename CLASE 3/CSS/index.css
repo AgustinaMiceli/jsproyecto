@@ -1,0 +1,50 @@
+header{
+    text-align: center;
+    background-color: black
+}
+
+.nav{
+    display: flex;
+    text-align: center;
+    background-color: black;
+}
+
+h4{
+    text-align:center;
+    background-color: black;
+    padding-left: 2%;
+    
+}
+
+body{
+    background-color: rgba(250, 203, 103, 0.836);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align:justify;   }
+p{
+    padding: 2%;
+    text-align: justify;
+    
+}
+
+ul{
+    padding-left: 2%;
+
+}
+.container{
+    text-align: center;
+    background-color: black;
+    
+    
+}
+
+footer{
+    background-color: black;
+}
+
+
+.carouselExampleControls{
+    width: 20%;
+    padding: 20%;
+}
+

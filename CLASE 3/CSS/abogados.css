@@ -1,0 +1,38 @@
+body{
+    background-color: rgba(250, 203, 103, 0.836);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+    text-align: justify;
+  
+        }
+
+p{
+    padding-left: 2%;
+    padding-right: 2%;
+}    
+    
+
+    h1{
+        text-align: center;
+    }
+    
+h4{
+    text-align: center;
+    background-color: black;
+
+
+}
+
+
+
+.texto{
+    font-size: large;
+}
+
+.container{
+    text-align: center;
+    background-color: black;
+    
+    
+}
+
