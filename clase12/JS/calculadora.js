@@ -1,25 +1,68 @@
 
 console.log('Estamos en el archivo de la Calculadora ');
 
-let numeroUno= Number(prompt('Ingresa un número para realizar tu cálculo'))
-let numeroDos= Number(prompt('Ingresa otro número para realizar tu cálculo'))
+var numuno, numdos , suma , resta, multiplicar, dividir;
 
-console.log('El primer número es:', numeroUno);
-console.log('El segundo número es:', numeroDos);
+let resultado = document. getElementById('resultado');
 
-function escribir (r)
-console.log(r);
-
-function sumar( a, b){
-    let resultado= a + b;
-    escribir(resultado)
-    }
+function calcular(){
+    numuno = document.getElementById('numuno').value;
+    numdos = document.getElementById('numdos').value;
 
 
-function resta( a, b){
-    let resultado= a - b;
+numuno = Number(numuno);
+numdos = Number(numdos);
 
- 
+
+if(numuno == 0 && numdos== 0){
+    alert("Por favor ingresa los números para las operaciones")
+}else{
+    suma= numuno + numdos;
+
 }
 
-sumar(numeroUno, numeroDos);
+console.log('La suma de los dos valores es:' + suma);
+
+resultado.innerHTML = 'La suma de los dos valores es:' + suma; 
+
+}
+
+function resta() {
+    numuno = document.getElementById('numuno').value;
+    numdos = document.getElementById('numdos').value;
+    numuno = Number(numuno);
+    numdos = Number(numdos);
+    resta = numuno - numdos;
+    console.log(`La resta de los dos valores es: ${resta}`);
+    resultado.innerHTML = (`La resta de los dos valores es: ${resta}`);
+}
+
+function multiplicar() {
+    numuno = document.getElementById('numuno').value;
+    numdos = document.getElementById('numdos').value;
+    numuno = Number(numuno);
+    numdos = Number(numdos);
+    multiplicar = numuno * numdos;
+    console.log(`La multiplicación de los dos valores es: ${multiplicar}`);
+    resultado.innerHTML = `La multiplicación de los dos valores es: ${multiplicar}`
+}
+
+function dividir() {
+    numuno = document.getElementById('numuno').value;
+    numdos = document.getElementById('numdos').value;
+    numuno = Number(numuno);
+    numdos = Number(numdos);
+    condicion()
+    dividir = numuno / numdos;
+    //console.log(`La división de los dos valores es: ${dividir}`);
+    resultado.innerHTML = `La division de los dos valores es: ${dividir}`
+}
+
+function condicion() {
+    if(numuno == 0 || numdos == 0){
+        alert("No podés ingresar")
+        location.href= ('../index.html');
+    }else{
+        dividir = numuno / numdos;
+    }
+}

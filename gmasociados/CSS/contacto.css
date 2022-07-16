@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(250, 203, 103, 0.836);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+    text-align: justify;
+  
+    }
+    
+h1{
+    text-align: left;
+    
+}    
+
+.texto{
+    font-size: large;
+    font-display: flex;
+}
+
+
+form{
+    width: 50%;
+    margin-left: 40%;
+    margin-right: 20%;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+
+
+    
+}
+
+textarea{
+
+min-height: 200px;
+max-height: 300px;
+width:100%;
+border-radius: 7px;
+}
+
+
+
+
+    
+    footer{
+        background-color: black
+    
+    }
+
+
+.datos{
+    justify-content: left;
+}
+
+
+

@@ -1,0 +1,17 @@
+{
+  "name": "clase18",
+  "version": "2.1.0",
+  "description": "Mi segundo proyecto de Node",
+  "main": "index18.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"&& exit 1",
+    "start": "node index18.js",
+    "dev": "nodemon index18.js"
+  },
+  "author": "Agus",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}

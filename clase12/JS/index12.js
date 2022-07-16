@@ -31,7 +31,9 @@ let numDos=100;
 let numTres=200;
 
 function sumar( a, b){
-    return a + b}
+    return a + b
+}
+
 
 console.log('El resultado de la suma es:' , sumar(numDos, numTres));
 
@@ -66,4 +68,4 @@ let frutas = [
 
     for (let index = 0; index < frutas.length ; index++) {
         console.log(' Las frutas son: ', index, frutas[index]);
-    }
+    } 

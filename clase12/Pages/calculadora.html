@@ -6,19 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title> CALCULADORA</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">   
+<title> CALCULADORA</title>
 </head>
-<body>
 
+<body>
 <main class="container">
     <div class="text-center">
     <h1> Calculadora con JavaScript</h1>
+</div>
 <hr>
 
-<button class="btn btn-primary">Inicia calculo</button>
+<div class="d-f text-center"> 
+<div class="m-5 row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Número</label>
+    <div class="col-sm-10">
+      <input type="number"  class="form-control" id="numuno">
+    </div>
+  </div>
+
+
+  <div class="m-5 row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Otro Número</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control" id="numdos">
+    </div>
+    </div>
+  </div>
+<div class="text-center">
+  <button class="btn btn-primary text-center" onclick="calcular()">
+    <i class="bi bi-calculator">Inicia calculo</i>
+    </button>
+</div>
+<div id="resultado"></div>
+
+
+
+
+ <div class="d-f text-center">
+   <button class="btn btn-success w-25 m-3" onclick="calcular()">
+    <i class="bi bi-plus">Sumar</i> </button>
+   <button class="btn btn-warning w-25 m-3" onclick="resta()"> 
+    <i class="bi bi-dash-lg">Restar</i> </button>
+   <button class="btn btn-danger w-25 m-3" onclick="multiplicar()"> 
+    <i class="bi bi-x">Multiplicar</i>  </button>
+   <button class="btn btn-dark w-25 m-3" onclick="dividir()">
+    <i class="bi bi-arrows-collapse">Dividir</i>
+     </button>
 </div>
 
+ 
+  <div id ="resultado" class="m-5">Suma</div>
+  <div id="resultadouno" class="m-5">Suma</div>
+  <div id="resultadodos" class="m-5">Suma</div>
+</div>
 </main>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 <script src="../JS/calculadora.js"></script>
 
