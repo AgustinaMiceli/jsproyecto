@@ -14,31 +14,31 @@
 
 </body>
 
-      <form>
+      <form action="/contacto" method="POST">
         <div class="mb-2">
-          <label for="exampleInputEmail1" class="form-label">Nombre</label>
-          <input type="text"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text"  class="form-control" id="nombre" name="nombre">
         </div>
 
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="exampleInputPassword1">
+          <label for="apellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="apellido" name="apellido">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Teléfono</label>
-          <input type="text" class="form-control" id="exampleInputPassword1">
+          <input type="text" class="form-control" id="exampleInputPassword1" name="telefono">
         </div>
 
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Correo Electrónico</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="mail">
         </div>
        
         <div class="consulta">
           <label for="exampleInputEmail1" class="form-label">Deja tu consulta</label>
           <br>
-          <textarea></textarea>
+          <textarea name="consulta"></textarea>
       <br>
       <br>
         <button type="submit" class="btn btn-dark">Enviar</button>
